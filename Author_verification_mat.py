@@ -80,7 +80,7 @@ def author_verification():
     #print(distance_question)
     
     if  ((distance_question - distance_train) <= 3 and actual == '1'):
-        print(distance_question - distance_train)
+        #print(distance_question - distance_train)
         out.write("Correct\n")      
     elif ((distance_question - distance_train) > 3 and actual == '0'):
         #print(distance_question - distance_train)
