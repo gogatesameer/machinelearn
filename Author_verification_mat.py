@@ -89,8 +89,6 @@ def author_verification():
         #print(distance_question - distance_train)
         out.write("Incorrect\n")
         
-
-
     #print(len(vocab))
     f.close()
     out.close()
